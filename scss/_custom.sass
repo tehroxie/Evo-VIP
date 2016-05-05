@@ -1,0 +1,46 @@
+.modal
+  .modal-content
+    font-family: 'Open Sans'
+    color: rgba(0,0,0,0.7)
+    .modal-header
+      background: #ccc
+      color: rgba(0,0,0,0.7)
+      padding: 20px 25px
+      text-align: center
+      color: rgba(0,0,0,0.7)
+      font-weight: 400
+      .close
+        transition: all 0.2s ease-in-out
+        position: absolute
+        right: 20px
+        top: 10px
+
+
+    .modal-body
+      color: rgba(0,0,0,0.7)
+      background: #eee
+      display: flex
+      padding: 25px
+      justify-content: space-around
+      .owner
+        text-align: center
+        padding: 25px 15px
+        .avatar
+          border-radius: 50%
+        .name
+          padding: 14px 2px 25px
+        .url
+          color: rgba(0,0,0,0.7)
+          border: 1px solid rgba(0,0,0,0.7)
+          padding: 4px 25px
+          border-radius: 2em
+          transition: all 0.2s ease-in-out
+          &:hover
+            border: 1px solid rgba(0,0,0,1)
+            color: #eee
+            background: rgba(0,0,0,0.7)
+
+    .modal-footer
+      color: rgba(0,0,0,0.7)
+      background: #ccc
+      display: none
